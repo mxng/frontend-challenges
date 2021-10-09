@@ -5,12 +5,15 @@
 /* Components */
 @import url("components/cards.css");
 @import url("components/button.css");
+@import url("components/navbar.css");
+@import url("components/profile.css");
 
 body {
   margin: 0 auto;
   margin-bottom: 100px;
   font-family: "Open Sans", "Helvetica", "sans-serif";
   color: #313131;
+  background-color: #f8f7f9;
 }
 .text-center {
   text-align: center;
@@ -18,4 +21,25 @@ body {
 .container {
   max-width: 900px;
   margin: 50px auto;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.al-c {
+  align-items: center;
+}
+
+.jc-sb {
+  justify-content: space-between;
+}
+
+li {
+  list-style-type: none;
+}
+
+i {
+  font-size: 30px;
+  color: rgba(0, 0, 0, 0.2);
 }
