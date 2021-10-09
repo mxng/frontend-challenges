@@ -1,0 +1,46 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card {
+  background-color: rgb(245, 245, 245);
+  border-radius: 25px;
+  padding: 30px 40px;
+  margin: 14px;
+  text-align: center;
+}
+
+.plan-price h2 {
+  font-size: 16px;
+  margin: 0;
+}
+
+.plan-price p {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.plan-details {
+  margin: 40px auto;
+  color: rgb(94, 94, 94);
+}
+
+.fa-check {
+  color: rgb(110, 230, 110);
+}
+
+/* =============ACTIVE CARDS============ */
+.card.active {
+  background-color: rgb(8, 98, 231);
+  color: whitesmoke;
+  box-shadow: 8px 16px 25px rgba(0, 0, 0, 0.2);
+  margin-bottom: 24px;
+  margin-top: 4px;
+}
+
+.plan-details.active {
+  color: whitesmoke;
+}
