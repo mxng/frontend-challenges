@@ -1,0 +1,21 @@
+.body-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "header header header header"
+    "sidebar content content content"
+    "footer footer footer footer";
+
+  padding: 20px 50px;
+}
+
+#add-project {
+  position: absolute;
+  bottom: -26px;
+  left: 0;
+  right: 0;
+  width: 120px;
+  margin-left: auto;
+  margin-right: auto;
+}
