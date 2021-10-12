@@ -1,8 +1,5 @@
 .sidebar {
   grid-area: sidebar;
-  background-color: #fff;
-  border-radius: 20px;
-  padding: 45px;
   position: relative;
 }
 
@@ -11,9 +8,6 @@
 }
 
 .sidebar img {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
   margin: 10px 20px 10px 0px;
 }
 
@@ -35,5 +29,4 @@
 
 .sidebar-group-title {
   font-size: 16px;
-  color: rgb(190, 190, 190);
 }

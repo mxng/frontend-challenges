@@ -3,12 +3,14 @@
 @import url("https://use.fontawesome.com/releases/v5.0.10/css/all.css");
 
 /* Components */
-@import url("components/cards.css");
+@import url("components/employees-list.css");
 @import url("components/button.css");
 @import url("components/navbar.css");
 @import url("components/profile.css");
 @import url("components/sidebar.css");
 @import url("components/home.css");
+@import url("components/card.css");
+@import url("components/footer.css");
 
 body {
   margin: 0 auto;
@@ -20,6 +22,14 @@ body {
 
 .text-center {
   text-align: center;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.text-muted {
+  color: rgb(190, 190, 190);
 }
 
 .container {
@@ -50,4 +60,8 @@ i {
 
 .shadow {
   box-shadow: 0 0 100px rgba(0, 0, 0, 0.05);
+}
+
+.bg-white {
+  background-color: #fff;
 }

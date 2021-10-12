@@ -1,0 +1,28 @@
+.employees-list-container {
+  grid-area: content;
+  margin: 0 40px;
+}
+
+.employee-details.profile {
+  position: relative;
+}
+
+.employee-details p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.profile-picture {
+  position: absolute;
+  right: 120px;
+}
+
+#add-employee {
+  position: absolute;
+  top: 120px;
+  right: 90px;
+}
+
+.list-header {
+  padding: 0 40px;
+}
