@@ -11,3 +11,7 @@ The design is created by [Brave Wings](https://dribbble.com/shots/6131920/attach
 ### Screenshot
 
 ![screenshot](https://i.imgur.com/UuxZU5K.png)
+
+**My Figma wireframe**
+
+![figma wireframe](https://i.imgur.com/3WqbwEA.png)
